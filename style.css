@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    background-color: azure;
+    padding-top: 10px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    text-shadow: 5px wheat;
+}
+
+.first{
+    background-color: #304452;
+    width: 290px;
+    padding: 20px;  
+    border-radius: 20px;
+    box-shadow:15px 10px rgb(29, 48, 41)
+}
+
+
+.username{
+    width: 400px;
+    color: white;
+    padding: 5px;
+}
+
+.email{
+    width: 400px;
+    color: white;
+    padding: 5px;
+}
+
+.phonenub{
+    width: 400px;
+    color: white;
+    padding: 5px;
+}
+
+.password{
+    width: 400px;
+    color: white;
+    padding: 5px;
+   
+}
+
+.conpassword{
+    width: 400px;
+    color: white;
+    padding: 5px;
+}
+  
+
+input {
+    display: block;
+    margin-top: 10px;   
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 60%;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+button:hover {
+    background-color: #45a049;
+}
